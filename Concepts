@@ -1,0 +1,24 @@
+~~~~~~~~~~~~~~~~~~~
+Break and Continue
+~~~~~~~~~~~~~~~~~~~
+
+def checkName():
+	while True:
+		name = input( "Please enter your name : " )
+		if( name == "Piyush" ):
+			break
+	print( "Thanks ",name )
+
+	
+>>> checkName()
+
+
+def checkNameAndPass():
+	while True:
+		name = input( 'Please enter your name : ' )
+		if name != 'Piyush':
+			continue
+		password = input( 'Please enter the password : ' )
+		if password == 'Tuna':
+			print( 'Congratulations, access granted' )
+			break
