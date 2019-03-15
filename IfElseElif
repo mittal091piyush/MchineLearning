@@ -1,0 +1,23 @@
+
+def intro():
+	name = input("What is your name : ")
+	age = int( input("What is your age, {0}".format(name)) )
+	return age
+  
+  if( intro() ) > 18:
+	print("You can vote")
+else:
+	Print( "Come after {0} years.".format(5) )
+  
+  
+  
+  def checknumber( var ):
+	if( var > 5 ):
+		print( "Please guess lower : " )
+	elif ( var < 5 ):
+		print( "guess higher ")
+	else:
+		print( "Its the correct guess " )
+
+
+
